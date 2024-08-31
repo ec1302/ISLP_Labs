@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "islp-labs"
+version = "0.1.0"
+description = ""
+authors = ["ec1302 <ec1302@georgetown.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+islp = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
