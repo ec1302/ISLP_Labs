@@ -12,6 +12,9 @@ scikit-learn = "^1.5.1"
 islp = "^0.4.0"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
